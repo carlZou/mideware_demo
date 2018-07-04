@@ -9,5 +9,8 @@
         <module name="mideware_demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mideware_demo" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

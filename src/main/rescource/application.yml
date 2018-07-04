@@ -1,3 +1,4 @@
+
 spring:
   freemarker:
     template-loader-path: /WEB-INF/pages
@@ -8,5 +9,17 @@ spring:
     expose-request-attributes: true
     expose-session-attributes: true
     request-context-attribute: request
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://140.143.139.217:3306/mideware_demo
+    username: root
+    password: nq0TDQgGz9pe
+  resources:
+    static-locations: classpath:/assets
+
+
+
 application:
   message : "hello"
+mybatis:
+  type-aliases-package: me.hifancy.domain.pojo
