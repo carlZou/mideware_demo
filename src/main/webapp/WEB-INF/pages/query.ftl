@@ -23,25 +23,25 @@
         <div class="layui-form-item">
             <label class="layui-form-label">Name</label>
             <div class="layui-input-block">
-                <input type="text" name="title" required  lay-verify="required" placeholder="name" autocomplete="off" class="layui-input">
+                <input type="text" name="gName" required  lay-verify="required" placeholder="name" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">DeptNO</label>
             <div class="layui-input-block">
-                <input type="text" name="title" required  lay-verify="required" placeholder="deptNo" autocomplete="off" class="layui-input">
+                <input type="text" name="deptNo" required  lay-verify="required" placeholder="deptNo" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">Email</label>
             <div class="layui-input-block">
-                <input type="email" name="title" required  lay-verify="required" placeholder="email" autocomplete="off" class="layui-input">
+                <input type="email" name="email" required  lay-verify="required" placeholder="email" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
             <label class="layui-form-label">Tel</label>
             <div class="layui-input-block">
-                <input type="text" name="title" required  lay-verify="required" placeholder="tel" autocomplete="off" class="layui-input">
+                <input type="text" name="tel" required  lay-verify="required" placeholder="tel" autocomplete="off" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
